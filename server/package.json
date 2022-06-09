@@ -13,7 +13,7 @@
   "keywords": [],
   "author": "",
   "jest": {
-    "testEnvironmnet": "node"
+    "testEnvironment": "node"
   },
   "license": "ISC",
   "dependencies": {

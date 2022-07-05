@@ -15,6 +15,7 @@ describe('Launches API', () => {
         await loadPlanetsData();
     });
     afterAll(async () => {
+        jest.setTimeout(5000);
         await mongoDisconnect();
     });
 
